@@ -26,6 +26,10 @@ button {
   color: white;
   font-weight: bold;
 }
+
+#delete-btn {
+  background-color: rgba(250, 15, 15, 0.87);
+}
 #ul-el {
   list-style: none;
   padding-left: 0px;
