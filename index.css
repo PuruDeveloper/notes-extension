@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  min-width: 400px;
+  min-width: 500px;
+  background-color: #3c4043;
 }
 input {
   background-color: #ffff;
@@ -12,8 +13,9 @@ input {
   padding-left: 12px;
   padding-right: 12px;
   box-sizing: border-box;
-  border: 2px solid #ccd8c5;
+  border: none;
   outline: none;
+  border-radius: 12px;
 }
 button {
   cursor: pointer;
@@ -22,12 +24,13 @@ button {
   border: none;
   outline: none;
   min-width: 120px;
-  background-color: #5f9341;
+  background-color: rgb(149, 145, 145);
   color: white;
   font-weight: bold;
 }
 
-#delete-btn {
+#delete-btn,
+#delete-indi {
   background-color: rgba(250, 15, 15, 0.87);
 }
 #ul-el {
@@ -35,6 +38,8 @@ button {
   padding-left: 0px;
 }
 #ul-el > li {
-  color: #5f9341;
+  color: white;
+  font-weight: 600;
   margin-top: 4px;
+  word-break: break-all;
 }
